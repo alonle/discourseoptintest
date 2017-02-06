@@ -5,5 +5,5 @@ registerOption((siteSettings, opts) => {
 });
 
 export function setup(helper) {
-  helper.whiteList([ 'div[id=mytest]' ]);
+  helper.whiteList([ 'button[id=mytest]' ]);
 }
